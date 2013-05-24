@@ -1,0 +1,5 @@
+#login-box{background: url("../images/bg-f.png");box-shadow: 2px 2px 5px #ddd;}
+.login-form .control-group input{background-position:8px 5px ; padding-left: 30px;color: #666;}
+.input-user{background: url("../images/user.png") no-repeat;}
+.input-pwd{background: url("../images/key.png") no-repeat;}
+.login-submit a{margin-right: 15px;}

@@ -326,7 +326,7 @@ module CASServer
       end
 
       if tgt and !tgt_error
-        @message = {:type => 'notice',
+        @message = {:type => 'alert-error',
           :message => t.notice.logged_in_as(tgt.username)}
       elsif tgt_error
         $LOG.debug("Ticket granting cookie could not be validated: #{tgt_error}")
@@ -335,7 +335,7 @@ module CASServer
       end
 
       if params['redirection_loop_intercepted']
-        @message = {:type => 'mistake',
+        @message = {:type => 'alert-error',
           :message => t.error.unable_to_authenticate}
       end
 
