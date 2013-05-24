@@ -17,3 +17,6 @@ See http://code.google.com/p/rubycas-server
 
 RubyCAS-Server is licensed for use under the terms of the MIT License.
 See the LICENSE file bundled with the official RubyCAS-Server distribution for details.
+
+## install
+rvm install 1.8.7
