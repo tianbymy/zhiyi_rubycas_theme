@@ -1,5 +1,6 @@
 /***********layout css***************/
-#login-box{width:350px;margin: 10% auto;}
+#header .navbar-inner{height: 50px;line-height: 50px;padding: 0 !important;}
+#login-box{width:350px;margin: 8% auto;}
 .login-header{padding: 15px 0 20px 20px;font-size: 18px;}
 
 .mistake{border-color: #EED3D7 !important;background-color: #F2DEDE !important;color:#B94A48 !important;}
